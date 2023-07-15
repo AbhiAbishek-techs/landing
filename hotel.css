@@ -1,0 +1,960 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Caprasimo&family=Dancing+Script:wght@400;500;600;700&family=Fasthand&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,600;1,100;1,300;1,500;1,900&family=Roboto+Condensed:wght@300&family=Roboto:ital,wght@1,100;1,300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+
+.container {
+    background: url(https://w0.peakpx.com/wallpaper/36/34/HD-wallpaper-black-leather-leather-texture-black-background.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+
+.home {
+    background: url(https://insanelygoodrecipes.com/wp-content/uploads/2020/09/Indian-Dish-Malai-Kofta.png);
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+
+
+
+.media {
+    /* border: 1px solid white; */
+    padding-top: 10px;
+    ;
+    /* margin-left: 900px; */
+    width: 100%;
+    height: 100px;
+}
+
+.media div {
+
+    padding-top: 20px;
+    padding-left: 5px;
+    /* border-radius: 15px; */
+    margin-left: 1350px;
+    /* border: 1px solid white; */
+    /* width: 100px;
+    height: 50px; */
+}
+
+
+
+
+
+.media a {
+    padding-bottom: 0;
+    padding-left: 5px;
+    /* padding-top: 50px; */
+    /* margin-left: 1350px; */
+    width: 100px;
+    height: 40px;
+    font-size: 25px;
+    /* margin-top: 50px; */
+}
+
+
+
+
+
+
+.home img {
+    height: 370px;
+    width: 350px;
+    /* border: 2px solid white; */
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.home h2 {
+    /* transition: cubic-bezier(0.215, 0.610, 0.355, 1) 10s; */
+    font-size: 40px;
+    line-height: 25px;
+    color: white;
+    margin-top: -110px;
+    margin-left: 95px;
+}
+
+.home span {
+    font-size: 30px;
+    color: white;
+    margin-top: -90px;
+    margin-left: 120px;
+    text-align: center;
+
+}
+
+.home h1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-left: 35px;
+}
+
+
+.store {
+    /* border: white solid; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 450px;
+    /* margin-top: 300px; */
+}
+
+.play-store {
+    display: inline-block;
+    border: 2px solid white;
+    width: 170px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 10px 50px;
+
+}
+
+.play-store i {
+    font-size: 40px;
+
+    padding-left: 8px;
+    padding-top: 23px;
+    text-align: justify;
+
+}
+
+.play-store a {
+    text-decoration: none;
+}
+
+.play-store h5 {
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: -30px 0;
+    padding-left: 35px;
+}
+
+.app-store {
+    display: inline-block;
+    border: 2px solid white;
+    width: 170px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 10px 0px;
+}
+
+.app-store i {
+    font-size: 40px;
+
+    padding-left: 8px;
+    padding-top: 23px;
+    text-align: justify;
+}
+
+.app-store a {
+    text-decoration: none;
+}
+
+.app-store h5 {
+    align-content: center;
+    color: white;
+    text-align: center;
+    margin: -30px 0;
+    padding-left: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------- DIVIDER SECTION--------------------------------- */
+
+
+.divider img {
+    width: 100%;
+    height: 380px;
+    margin-top: -280px;
+
+}
+
+.divider .img0 {
+    width: 150px;
+    height: 183px;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+
+.divider .img1 {
+    width: 150px;
+    height: 180px;
+    align-items: center;
+    text-align: center;
+    margin-left: 40%;
+}
+
+.divider .img2 {
+    width: 150px;
+    height: 183px;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+
+}
+
+.divider .img3 {
+    width: 150px;
+    height: 183px;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.divider .img4 {
+    width: 150px;
+    height: 183px;
+    align-items: center;
+    text-align: center;
+    margin-left: 50px;
+}
+
+
+
+
+/*----------------------------------- ABOUT SECTION -------------------------------------------*/
+.heading {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    text-align: center;
+    font-size: 120px;
+    margin: 50px 0;
+
+}
+
+
+
+.about-img {
+    padding-top: 1px;
+    position: relative;
+    width: 100%;
+    height: 950px;
+    background: url(https://img.freepik.com/premium-photo/food-with-delivery-set-dishes-diet-top-view-free-space-your-text-black-background_187166-17622.jpg);
+    background-size: cover;
+    animation: animate 9s ease-in-out infinite;
+}
+
+
+
+/* The animation code */
+@keyframes animate {
+
+    0%,
+    100% {
+        background-image: url(https://img.freepik.com/premium-photo/food-with-delivery-set-dishes-diet-top-view-free-space-your-text-black-background_187166-48057.jpg);
+    }
+
+    25% {
+        background-image: url(https://img.freepik.com/premium-photo/food-with-delivery-set-dishes-diet-top-view-free-space-your-text-black-background_187166-17622.jpg);
+    }
+
+    50% {
+        background-image: url(https://img.freepik.com/premium-photo/food-with-delivery-set-dishes-diet-top-view-free-space-your-text-black-background_187166-21297.jpg?w=2000);
+    }
+
+    75% {
+        background-image: url(https://img.freepik.com/premium-photo/food-with-delivery-set-dishes-diet-top-view-free-space-your-text-black-background_187166-3087.jpg?w=2000);
+    }
+
+    0%,
+    100% {
+        background-image: url(https://img.freepik.com/premium-photo/clean-food-with-mixed-vegetable-fruit-salad-wood-table-background_8087-1978.jpg);
+    }
+
+}
+
+#about p {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    line-height: 25px;
+    width: 550px;
+    margin-left: 50px;
+    color: white;
+}
+
+#about h1 {
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    text-align: center;
+    font-size: 120px;
+    /* margin: 50px 0; */
+}
+
+
+
+
+/*---------------------------------- DISH KNOWN--------------------------------- */
+
+.dish-known {
+    width: 100%;
+    height: 1100px;
+    margin-top: 50px;
+
+
+
+}
+
+.dish-known h2 {
+    transition: cubic-bezier(0.795, 0.7955, 0.795, 0.795) 5s;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 120px;
+    font-weight: normal;
+    line-height: 120px;
+    width: 100%;
+    float: left;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+
+
+.grid-known {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid-known img {
+    height: 600px;
+    left: 0;
+    margin-left: 55px;
+
+}
+
+.grid-known h1 {
+    margin-top: -50px;
+    font-size: 70px;
+    font-weight: 300;
+    color: white;
+    line-height: normal;
+    text-align: left;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.grid-known p {
+    text-align: justify;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+
+.grid-known span {
+    color: white;
+    font-size: 20px;
+    margin: 1% 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+
+
+
+/* ----------------------------------VERAITIES------------------------------------ */
+
+
+#veraities span {
+    text-align: center;
+    display: block;
+    color: #E03036;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    line-height: 100px;
+    margin-top: 5px;
+
+
+}
+
+#veraities h1 {
+    text-align: center;
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    font-size: 120px;
+    line-height: 100px;
+    margin-top: 10px;
+}
+
+.veraities {
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+
+}
+
+
+.veraity1 {
+    border-radius: 20px;
+    margin: 50px 50px;
+    /* border: 2px white solid; */
+    height: 340px;
+    width: 340px;
+    animation: animate1 12s infinite;
+}
+
+@keyframes animate1 {
+
+    0%,
+    100% {
+        background-image: url(https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content6553.jpg);
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url(https://backpackertravel.org/wp-content/uploads/2016/02/koshari-1.jpg);
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(https://media.easemytrip.com/media/Blog/India/636969766251686038/636969766251686038e7QQhQ.jpg);
+        background-size: cover;
+    }
+
+}
+
+
+.veraity2 {
+    border-radius: 20px;
+    margin: 50px 50px;
+    /* border: 2px white solid; */
+    height: 340px;
+    width: 340px;
+    animation: animate2 12s infinite;
+}
+
+@keyframes animate2 {
+
+    0%,
+    100% {
+        background-image: url(https://www.chefspencil.com/wp-content/uploads/50-Famous-Indian-Foods.jpg);
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url(https://freedesignfile.com/upload/2017/06/Different-practices-delicious-fish-dishes-Stock-Photo-07.jpg);
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(https://assets.cntraveller.in/photos/60ba2489002baf698cc67831/4:3/w_3776,h_2832,c_limit/Posto-Diye-Aam-Pora-Illish-.jpg);
+        background-size: cover;
+    }
+
+}
+
+
+.veraity3 {
+    border-radius: 20px;
+    margin: 50px 50px;
+    /* border: 2px white solid; */
+    height: 340px;
+    width: 340px;
+    animation: animate3 12s infinite;
+}
+
+@keyframes animate3 {
+
+    0%,
+    100% {
+        background-image: url(https://nigerianfinder.com/wp-content/uploads/2022/09/Types-of-Rice-Dishes-in-Nigeria.jpg);
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url(https://pixel.parall.ax/parallax-agency/image/upload/w_0.84,c_scale/w_560,h_575,c_crop,x_151,y_23/expose/cauldron-2018/site-images/20140521115735_Fried_Tofu_in_Chinese_sesame_soy_sauce.jpg);
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(https://pixel.parall.ax/parallax-agency/image/upload/w_0.84,c_scale/w_560,h_575,c_crop,x_151,y_23/expose/cauldron-2018/site-images/20140521115735_Fried_Tofu_in_Chinese_sesame_soy_sauce.jpg);
+        background-size: cover;
+    }
+
+}
+
+
+
+.veraity4 {
+    border-radius: 20px;
+    margin: 50px 50px;
+    /* border: 2px white solid; */
+    height: 340px;
+    width: 340px;
+    animation: animate4 12s infinite;
+}
+
+@keyframes animate4 {
+
+    0%,
+    100% {
+        background-image: url(https://www.licious.in/blog/wp-content/uploads/2022/06/shutterstock_1339636625-1.jpg);
+        background-size: cover;
+    }
+
+    25% {
+        background-image: url(https://images.prismic.io/altair/6d0b41b4-d78f-49bb-838f-506a57a7a96c_Cultural_Food_Featured_Image_res.jpg?auto=compress,format&rect=626,0,668,401&w=500&h=300);
+        background-size: cover;
+    }
+
+    50% {
+        background-image: url(https://theasiadialogue.com/wp-content/uploads/2017/11/5054208160_7517d88e8d_b.jpg);
+        background-size: cover;
+    }
+
+}
+
+.veraity-img {
+    background-image: url(https://th-i.thgim.com/public/incoming/p53ese/article67026504.ece/alternates/FREE_1200/Paragon%20Award%20winning%20Biryani.jpg);
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -------------------------------------------------SPECIALS SECTION--------------------------- */
+
+
+.row {
+    /* background-color: rgb(230, 221, 221); */
+    width: 100%;
+    height: 500px;
+    position: relative;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.col {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 110px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(209, 200, 200);
+    box-shadow: 10px 5px 5px rgb(77, 70, 70);
+    border-radius: 50px;
+    background-image: linear-gradient(126deg, #c3baba, #f3f5f1);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+}
+
+.col i {
+    color: #f3f5f1;
+    background-color: black;
+    font-size: 1.5em;
+    position: absolute;
+    margin-top: -105px;
+    margin-left: -40px;
+    height: 58px;
+    width: 67px;
+    text-align: center;
+    padding-top: 28px;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    border-bottom-right-radius: 26px;
+    border-top-left-radius: 26px
+}
+
+
+.col img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin-top: -130px;
+    margin-left: 25px;
+    box-shadow: 10px 10px 10px rgb(17, 15, 15);
+}
+
+.col p {
+    margin-top: 30px;
+    font-size: 32px;
+    line-height: 55px;
+}
+
+.col span {
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/* ------------------------------------- OUR MENU---------------- */
+.menu-heading {
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid white; */
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.menu-heading span {
+    color: #E03036;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    line-height: 100px;
+
+}
+
+.menu-heading h1 {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    font-size: 120px;
+    line-height: 100px;
+    margin-top: 0px;
+}
+
+
+.menu {
+
+    /* background: url(https://w0.peakpx.com/wallpaper/36/34/HD-wallpaper-black-leather-leather-texture-black-background.jpg);
+    background-size: cover; */
+    width: 100%;
+    height: 500px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: white;
+}
+
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.menu ul li {
+
+    height: 500px;
+    position: relative;
+    /* border: 1px solid white; */
+    text-align: center;
+    line-height: normal;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0;
+}
+
+
+#lia {
+    width: 500px;
+
+    border-right: 1px solid #6d6c6c;
+}
+
+#lia:hover {
+    background-image: url(https://www.sanjeevkapoor.com/UploadFiles/RecipeImages/Mutton-Ghee-Roast.jpg);
+    background-size: cover;
+}
+
+
+
+
+#lib {
+    width: 500px;
+    border-right: 1px solid #6d6c6c;
+}
+
+#lib:hover {
+    background-image: url(https://kurryleaves.net/wp-content/uploads/2017/11/kerala-street-food-chicken-fry.jpg);
+    background-size: cover;
+}
+
+
+
+#lic {
+    width: 500px;
+    border-right: 1px solid #6d6c6c;
+}
+
+#lic:hover {
+    background-image: url(https://i.ytimg.com/vi/1LtXG6CQmZc/maxresdefault.jpg);
+    background-size: cover;
+}
+
+
+
+#lid {
+    width: 500px;
+    /* border-right: 1px solid #6d6c6c; */
+}
+
+#lid:hover {
+    background-image: url(https://www.seriouseats.com/thmb/v_1u1VZM_0mdxyJjgnnWLYlUxXk=/735x0/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2014__03__25.03.201420Spicy-Indian-Crab-Masala-Fry-cd7dc3ba0d8b4f3489c13c4989ddeb4c.jpg);
+    background-size: cover;
+}
+
+
+
+.footer ul li span {
+    text-align: center;
+    align-items: center;
+}
+
+.footer ul li h2 {
+    text-align: center;
+    align-items: center;
+}
+
+
+
+
+
+/* ---------------------------------------QOUTES---------------------------- */
+
+
+.qoutes {
+    width: 100%;
+    text-align: center;
+    height: 900px;
+    background-image: url(https://www.shutterstock.com/image-photo/chef-black-suit-holds-his-260nw-1872786652.jpg);
+    background-size: cover;
+    margin-top: 13%;
+}
+
+.qoutes h1 {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    font-size: 120px;
+    line-height: 100px;
+    padding: 8% 5%;
+}
+
+.qoutes i {
+    font-size: 80px;
+}
+
+#q-icon1 {
+    padding-top: 70px;
+    /* padding-left: 70px; */
+}
+
+
+#q-icon2 {
+    /* padding-left: 70px; */
+    padding-bottom: 70px;
+}
+
+
+.delivery {
+    /* align-items: center; */
+    text-align: center;
+    height: 350px;
+    width: 650PX;
+    padding: 50px 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -220px;
+    /* border: 2px solid white; */
+}
+
+.devi {
+    text-align: center;
+    align-items: center;
+    background: url(https://w0.peakpx.com/wallpaper/36/34/HD-wallpaper-black-leather-leather-texture-black-background.jpg);
+    /* border: 2px white solid; */
+    display: table-cell;
+    vertical-align: middle;
+    width: 190px;
+    height: 255.8px;
+    padding: 13px;
+}
+
+
+.devi-sub {
+    border: #6d6c6c 1px solid;
+    font-size: 15px;
+    font-family: sans-serif;
+    height: 225.8px;
+    width: 160px;
+    background-color: #0d0c0c;
+    text-align: center;
+
+}
+
+
+.devi-sub :hover {
+    background-image: url(https://w0.peakpx.com/wallpaper/36/34/HD-wallpaper-black-leather-leather-texture-black-background.jpg);
+}
+
+
+.devi-sub img {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.devi-sub h3 {
+    color: white;
+    background-color: #4b4545;
+}
+
+
+
+
+
+
+
+/* ---------------------------------------OUR BRANDS---------------------------------- */
+
+.our-brands {
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid white; */
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.our-brands span {
+    color: #E03036;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'SnellBTRegular_0'; */
+    font-size: 100px;
+    line-height: 100px;
+
+}
+
+.our-brands h1 {
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+    font-size: 120px;
+    line-height: 100px;
+    margin-top: 0px;
+}
+
+.brand-img img {
+    margin: 20px 20px;
+}
+
+
+
+
+
+footer {
+    height: 500px;
+    background: url(https://w0.peakpx.com/wallpaper/36/34/HD-wallpaper-black-leather-leather-texture-black-background.jpg);
+    background-size: cover;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    color: white;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+/* .footer-img {
+    padding: 10px 10px;
+    text-align: center;
+    align-items: center;
+} */
+
+.footer ul {
+    display: inline;
+    margin: 10% 10%;
+    width: 100%;
+    /* border: 1px solid white; */
+    align-items: center;
+}
+
+.footer ul li {
+    display: inline-block;
+    text-align: center;
+    line-height: normal;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+
+#li1 {
+    border-right: 1px solid #6d6c6c;
+}
+
+#li2 {
+    border-right: 1px solid #6d6c6c;
+}
+
+#li3 {
+    border-right: 1px solid #6d6c6c;
+}
+
+
+.footer ul li span {
+    text-align: center;
+    align-items: center;
+}
+
+.footer ul li h2 {
+    text-align: center;
+    align-items: center;
+}
+
+.footer-png {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 150px;
+    margin-top: -150px;
+    border-bottom: 1px solid #6d6c6c;
+}
+
+.footer-png img {
+    text-align: center;
+    align-items: center;
+}
